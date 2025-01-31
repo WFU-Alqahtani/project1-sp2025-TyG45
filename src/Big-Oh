@@ -1,0 +1,7 @@
+printReceiptInOrder:
+Time Complexity: O(n)
+Iterates through the cartItems ArrayList to print each item and calculate the subtotal. The time taken is directly proportional to the number of items in the cart, denoted as n.
+
+emptyCartReverseOrder:
+Time Complexity: O(n)
+Removes items from the cartItems ArrayList one by one until it is empty. Each removal operation takes constant time, but since it processes all n items, the overall time complexity is O(n).
